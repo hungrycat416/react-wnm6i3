@@ -6,16 +6,14 @@ import { AppBar, Toolbar, Typography, IconButton } from '@mui/material';
 
 const App = () => {
   return (
-  <AppBar>
-    <Toolbar>
-      <IconButton>
-        <MenuIcon/>
+    <AppBar>
+      <Toolbar>
+        <IconButton>
+          <MenuIcon />
         </IconButton>
-      <Typography>
-        Marsupials
-        </Typography>
-    </Toolbar>
-  </AppBar>
+        <Typography>Marsupials</Typography>
+      </Toolbar>
+    </AppBar>
   );
 };
 
